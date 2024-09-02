@@ -6,3 +6,5 @@ build:
     - docker build -t $CI_REGISTRY/fpallas/blog:latest .
     - docker push $CI_REGISTRY/fpallas/blog:latest
     - 'curl -H "Authorization: Bearer $WATCHTOWER_HTTP_API_TOKEN" http://watchtower.fpallas.com/v1/update'
+  rules:
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH

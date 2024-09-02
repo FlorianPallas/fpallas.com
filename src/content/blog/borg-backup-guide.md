@@ -2,7 +2,7 @@
 title: "Borg: Backups have never been easier!"
 description: "BorgBackup is a tool for creating incremental backups that are encrypted, deduplicated and compressed. This is a meta post that dive into the different aspects and use cases of Borg for personal and professional use."
 heroImage: "/blog-placeholder-2.jpg"
-createdAt: "2024-09-02"
+pubDate: "2024-09-02"
 ---
 
 ## Why care?
